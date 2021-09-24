@@ -62,6 +62,8 @@
 -keep class org.apache.cordova.CordovaWebViewImpl { org.apache.cordova.PluginManager pluginManager; }
 -keep class org.apache.cordova.ResumeCallback { org.apache.cordova.PluginManager pluginManager; }
 -keep class org.apache.cordova.engine.SystemWebViewEngine { org.apache.cordova.PluginManager pluginManager; }
+-keep class org.apache.cordova.camera
+-keep class com.tmantman.nativecamera
 
 -dontnote org.apache.harmony.xnet.provider.jsse.NativeCrypto
 -dontnote sun.misc.Unsafe
